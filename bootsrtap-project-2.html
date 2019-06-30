@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.0/css/all.css">
+    <title>bootstrap project</title>
+</head>
+<body>
+    
+    <style>
+        .GitHub {
+					font-size: 20px;
+					 font-weight: 400px;
+					 margin: 0px 0px 24px;
+				}
+		
+				h1 {
+					font-size: 64px!important;
+					margin: 0px 0px 16px;
+				}
+				.form-p {
+					font-size: 10px;
+				}
+				.form{
+					width: 350;
+					height: 480px;
+					/* display: none; */
+				}
+				.button {
+					width: 270px;
+					margin-bottom: 5px;
+				}
+
+				.button-p {
+					width: 270px;
+					margin-bottom:  5px;
+					display:block;
+				}
+				.button-GitHub{
+					margin-bottom: 1.5em;
+					margin-top: 20px;
+				}
+				.developer-form {
+					font: 16px;
+					margin: 0px -24px;
+				}
+
+				.container-Enterprise{
+					padding: 40px!important;
+					text-align: center!important;
+				}
+
+				.Enterprise {
+					font-size: 26px!important;
+				}
+				.Enterprise-p{
+					font: 16px!important;
+				}
+
+				.development {
+					padding-left: 24px!important;
+    			padding-right: 24px!important;
+				}
+				.form-section {
+					padding-left: 24px!important;
+   			 	padding-right: 24px!important;
+				}
+				
+    </style>
+    <section class="site bg-dark">
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <div class="container">
+            <div class="navbar-nav">
+                 <a href="#" class="navbar-brand"><i class="fab fa-github-square icon"></i></a>
+                 <div class="collapse navbar-collapse d-flex justify-content-end" style="width: 100%" id="myTogglerNav">
+									 <a ml-2 class="navbar-item navbar-link" href="#"> Why GitHub</a>
+									 <a ml-2 class="navbar-item navbar-link" href="#">Enterprise</a>
+									 <a ml-2 class="navbar-item navbar-link" href="#">Exploer</a>
+									 <a ml-2 class="navbar-item navbar-link" href="#">Marketplace</a>
+									 <a ml-2 class="navbar-item navbar-link" href="#">Pricing</a>
+						</div><!-- div collapse-->
+            </div> <!--navbar-->
+            <form>
+                <input  class="d-none d-lg-inline" type="text" name="GitHub" id="GitHub" placeholder="search GitHub">
+                <button class="d-none d-lg-inline btn text-light" type="sign in" >Sign in</button>
+            
+								<button class="btn btn-outline-light" type="Sign up">Sign up</button>
+								
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#myTogglerNav" arial-controls="myTogglerNav" arial-expanded="false"
+                arial-label="Toggle-navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            </form>
+
+            </div><!--container-->
+
+        </nav><!--nav-->
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12">
+										<div class="developer-form d-sm-flex m-5">
+                    <section class="text-secondary development">
+                        <h1 class="text-white p-4">Bulit for developers</h1>
+                        <p class="GitHub">GitHub is a development platform inspired by the way you work. From <a class="text-white" href="#">opne source</a> to <a class="text-white" href="#">business</a>, you can host and review code,manage projects,and build software alongside 36million developers</p>
+                    </section><!--developer-section-->
+                    <form class="form-section">
+                        <div class="bg-white p-4 form">
+                            <div class="form-group">
+                                <label class="form-group" for="username"> username</label>
+                                <input class="form-control" type="text" type="username" placeholder="">
+
+                            </div><!--form div-->
+                                <div class="form-group">
+                                    <label for="email"> Email</label>
+                                    <input class="form-control" type="email" placeholder="">
+                                </div><!--div email-->
+                                <div class="form-group">
+                                    <label for="password"> password</label>
+                                    <input class="form-control" type="text" type="password" placeholder="">
+                                    <p class="form-p">Make sure it's at least 15 characters OR at least 8 characters including a number and a lowercase letter.<a href="#">Learn more</a></p>
+                                </div><!--div password-->
+                                <div class="btn btn-success btn-lg button-GitHub">
+                                    <button class=" btn text-white button-p">Sign up for GitHub</button>
+                                </div><!--div button-->
+                                <div>
+                                    <p class="form-p">By clicking &#34;Sign up for GitHub&#34; you agree to the <a href="#">Terms of service</a> and <a href="#">Privacy Statement</a>. we'll occasionlly send you account related email</p>
+												</div><!--div-p-->
+                    </div><!--form-div-->
+                </form>
+							</div><!--developer-form-felx-->
+                </div><!--col-->
+            </div><!--row-->
+
+        </div><!--container---->
+    </section><!--section-->
+    <section>
+        <div class="container-Enterprise">
+            <div class="Enterprise">
+								<h2>Get started with GitHub Enterprise</h2>
+							</div><!--get started-->
+							<div class="Enterprise-p">
+                <p>take collaboration to the next level with security and administrative features built for businesses </p>
+							</div><!-- Enter-p-->
+            <div class="btn btn-primary btn-lg">
+                <button class="btn text-white button"> Contact Sales</button>
+            </div><!--div buttton-->
+            <div>
+                <a class="text-decoration-none"href="#">Or start a free trial of Enterprise Server <i class="fas fa-arrow-right"></i></a>
+            </div> <!-- div a-->
+        </div><!--container for get-->
+    </section>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

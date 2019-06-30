@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="GitHub login" />
+    <link rel="stylesheet" href="assets/css/GitHublogin.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.8.0/css/all.css"
+    />
+    <title>GitHubLogin</title>
+  </head>
+  <body>
+      <div class="header header-logged-out width-full pt-5 pb-4" >
+    <div class="container clearfix width-full text-center">
+      <i class="fab fa-github fa-2x"></i>
+    </div><!--icon div-->
+    </div><!--header-->
+    
+    <main>
+      <div class="form-side px-3">
+        <form>
+          <div class="auto-form header p-0">
+            <h2>Sign in to GitHub</h2>
+          </div> <!--div-header-->
+          <div class="form-body mt-3">
+            <label for="username or mail address"
+              >username or email address</label
+            >
+            <input
+              class="form-control input-block"
+              type="text"
+              name="username or email address"
+              id="username or email address"
+            />
+            <label  class="mr-3" for="password">
+              password
+              <a class="label-link" href="#">Forgot password?</a>
+            </label>
+            <input
+              class="form-control input-block"
+              type="text"
+              name="password"
+              id="password"
+            />
+            <button class="btn btn-success mt-3 btn-block">Sign in</button>
+          </div><!--form -->
+        </form>
+        <p class="create-account mt-3">
+          New to GitHub?
+          <a href="#">Create an account</a>
+        </p>
+      </div> <!--div-form-->
+    </main>
+    <div class="footer container-lg p-responsive py-6 mt-6 f6" role="contentinfo">
+      <ol class="list-style-none d-flex flex-justify-center">
+        <li class="mr-3"><a href="#">Terms </a></li>
+        <li class="mr-3"> <a href="#">Privacy</a></li>
+        <li class="mr-3"> <a href="#">Security</a></li>
+        <li> <a class="link-gray" href="#">Contact GitHub</a></li>
+      </ol> <!--d-flex-->
+    </div> <!--div footer--> 
+    
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>

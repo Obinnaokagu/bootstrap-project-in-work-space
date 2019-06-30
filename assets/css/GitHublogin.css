@@ -1,0 +1,102 @@
+
+body{
+    background-color: #f9f9f9!important;
+}
+
+.form-side{
+    margin: 0 auto;
+    width: 340px;
+    padding: 10px!important;
+}
+
+.px-3 {
+    padding-right: 16px!important;
+}
+
+.pl-3, .px-3 {
+    padding-left: 16px!important;
+}
+
+h2 {
+    font-size: 24px!important;
+    font-weight: 300!important;
+    letter-spacing: -.5px!important;
+    margin-top: 0!important;
+    text-align: center!important;
+}
+
+.form-body {
+    border-radius: 5px;
+    border: 1px solid #d8dee2!important;
+    background-color: white!important;
+    font-size: 14px!important;
+    padding: 20px!important;
+}
+
+.mt-3 {
+    margin-top: 16px!important;
+}
+
+.form-body .input-block {
+    margin-bottom: 15px!important;
+    margin-top: 5px!important;
+}
+
+label{
+    font-weight: 600!important;
+}
+
+.label-link {
+    font-size: 15px;
+    margin-left: 4em;
+}
+
+.create-account {
+border: 1px solid #d8dee2!important;
+border-radius: 5px!important;
+padding: 15px 20px!important;
+text-align: center!important;
+}
+
+p {
+    margin-bottom: 10px!important;
+}
+
+.f6 {
+    font-size: 12px!important;
+}
+
+.p-responsive {
+    padding-left: 16px!important;
+    padding-right: 16px!important;
+}
+
+.py-6 {
+    padding-bottom: 40px!important;
+    padding-top: 40px!important;
+}
+
+.mt-6 {
+    margin-top: 40px!important;
+}
+
+.container-lg {
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+
+.d-flex {
+    justify-content: center!important;
+}
+
+.link-gray {
+    color: gray!important;
+}
+
+* {
+    box-sizing: border-box!important;
+}
+
+ol {
+    list-style-type: none;
+}
